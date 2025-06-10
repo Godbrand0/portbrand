@@ -7,7 +7,7 @@ export default function Home() {
         <h3 className="text-2xl text-gray-400">Hey, I am</h3>
         <h1 className="text-6xl/19  font-bold my-1.5 flex flex-col">
           <span className="text-white">Thompson Eregha.</span>{" "}
-          <span className="text-gray-300">a software Engineer.</span>
+          <span className="text-gray-300">a Software Engineer.</span>
         </h1>
 
         <p className="text-2xl text-gray-400">

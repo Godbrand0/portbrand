@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="shadow-md fixed top-0 my-3 w-full z-50 h-16  bg-transparent px-4  text-white  py-3">
+    <nav className="shadow-md fixed top-0 w-full z-50 h-20 items-center flex  bg-transparent backdrop-blur-sm px-4  text-white  py-3">
       <div className="fixed right-8 flex items-center space-x-9">
         <ul className="hidden md:flex space-x-9  font-medium">
           <li>
@@ -18,7 +18,11 @@ export default function Navbar() {
             <a href="">Projects</a>
           </li>
         </ul>
-        <div className="py-2 px-4 cursor-pointer border-2 "> Resume</div>
+        <div className="py-1 px-5 cursor-pointer border-2 hover:bg-blue-900">
+          <a href="Thompson's Resume.pdf" download="Thompson's Resume.pdf">
+            Resume
+          </a>
+        </div>
       </div>
     </nav>
   );
