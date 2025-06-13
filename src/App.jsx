@@ -8,15 +8,16 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div>
+    <div className="bg-blue-950 ">
       <Navbar />
-      <main className="bg-blue-950">
-        <Contact />
+      <main>
         <Home />
         <About />
         <Projects />
         <ContactMe />
+        <Contact />
       </main>
+      <div className="text-white text-center mt-9">copyright 2025</div>
     </div>
   );
 }
