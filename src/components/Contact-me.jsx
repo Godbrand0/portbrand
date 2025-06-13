@@ -3,7 +3,7 @@ import React from "react";
 export default function ContactMe() {
   return (
     <div className="md:w-[700px] text-center mx-auto mb-20 flex flex-col px-3 items-center mt-28 space-y-3">
-      <div className="text-white font-bold">
+      <div className="text-white font-bold space-y-3">
         <h3 className="md:text-3xl text-2xl">03. One Step Closer to Me</h3>
         <h2 className="md:text-6xl text-5xl">Contact Me</h2>
       </div>

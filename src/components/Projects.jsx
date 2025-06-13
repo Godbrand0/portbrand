@@ -32,10 +32,10 @@ export default function Projects() {
               alt=""
               className="w-full"
             />
-            <h1 className="text-white font-bold text-xl">GrandCoast Hotels</h1>
+            <h1 className="text-white font-bold text-xl">Every Talent.co</h1>
             <p className="text-center">
-              A landing page that showcases exciting information about an hotel
-              and its environment using
+              A landing page that showcases the steps for hiring talents using
+              AI
               <span className="text-white">React js</span>,
               <span className="text-white"> TailwindCSS</span>,
               <span className="text-white"> Javascript</span>
@@ -58,7 +58,7 @@ export default function Projects() {
               A platform that authenticate users, allows users to browse through
               various dishes, add favourites to cart and checkout respectively
               using
-              <span className="text-white">React js</span>,
+              <span className="text-white"> React js</span>,
               <span className="text-white">TailwindCSS</span>,
               <span className="text-white"> Firebase</span>
             </p>
