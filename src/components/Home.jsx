@@ -15,10 +15,11 @@ export default function Home() {
           ideas into interactive, user friendly web experiences.
         </p>
       </div>
-      <div className="text-white border-2 rounded w-44 text-2xl my-9 py-3  text-center cursor-pointer hover:bg-blue-900">
-        <a href="mailto:thompsoneregha00@gmail.com"></a>
-        Contact me
-      </div>
+      <a href="mailto:thompsoneregha00@gmail.com">
+        <div className="text-white border-2 rounded w-44 text-2xl my-9 py-3  text-center cursor-pointer hover:bg-blue-900">
+          Contact me
+        </div>
+      </a>
     </div>
   );
 }

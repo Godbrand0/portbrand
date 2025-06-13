@@ -1,8 +1,10 @@
 import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import ContactMe from "./components/Contact-me";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Contact />
         <Home />
         <About />
+        <Projects />
+        <ContactMe />
       </main>
     </div>
   );
