@@ -7,15 +7,15 @@ export default function Navbar() {
         <ul className="flex md:space-x-9 space-x-4 font-medium">
           <li>
             <span>01.</span>
-            <a href="">About</a>
+            <a href="About">About</a>
           </li>
           <li>
             <span>02.</span>
-            <a href="">Work</a>
+            <a href="Projects">Work</a>
           </li>
           <li>
             <span>03.</span>
-            <a href="">Contact</a>
+            <a href="ContactMe">Contact</a>
           </li>
         </ul>
         <div className="py-1 px-5 cursor-pointer border-2 hover:bg-blue-900">
