@@ -19,7 +19,7 @@ export default function Navbar() {
           </li>
         </ul>
         <div className="py-1 px-5 cursor-pointer border-2 hover:bg-blue-900">
-          <a href="Thompson's Resume.pdf" download="Thompson's Resume.pdf">
+          <a href="Thompson's resume.pdf" download="Thompson's resume.pdf">
             Resume
           </a>
         </div>
