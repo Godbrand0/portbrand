@@ -18,11 +18,14 @@ export default function Navbar() {
             <a href="ContactMe">Contact</a>
           </li>
         </ul>
-        <div className="py-1 px-5 cursor-pointer border-2 hover:bg-blue-900">
-          <a href="Thompson's_resume.pdf" download="Thompson's resume.pdf">
-            Resume
-          </a>
-        </div>
+
+        <a
+          href="Thompson's_resume.pdf"
+          download="Thompson's resume.pdf"
+          className="py-1 px-5 cursor-pointer border-2 hover:bg-blue-900"
+        >
+          Resume
+        </a>
       </div>
     </nav>
   );
